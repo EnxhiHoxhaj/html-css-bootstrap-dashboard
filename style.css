@@ -17,6 +17,10 @@ main {
     height: fit-content;
 }
 
+.m-page {
+    padding: 0;
+}
+
 /*DEBUG*/
 nav {
     min-height: 70px;
@@ -39,7 +43,6 @@ main .row {
 
 main .row  {
     border: solid black 1px;
-    min-height: 700px;
 }
 
 main div  {
@@ -48,6 +51,12 @@ main div  {
 
 /*FINE DEBUG*/
 
-.banner {
-    min-height: 100px;
+
+
+.faq > div, .faq button {
+    width: 100%;
+}
+
+.right img {
+    width: 100%;
 }
