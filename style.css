@@ -4,3 +4,30 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+/*DEBUG*/
+nav {
+    min-height: 70px;
+    background-color: gray;
+}
+
+.row {
+    background-color: rgb(152, 201, 184);
+    min-height: 70px;
+}
+
+[class^="col-"] {
+    background-color: chocolate;
+    min-height: 50px;
+}
+
+.col-1 {
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+/*FINE DEBUG*/
