@@ -10,13 +10,11 @@ main {
 }
 
 .side-menu > div {
-    height: calc(100% / 2);
+    height: calc(100% / 2);   
 }
-
-.icon-side i, .setting i {
-    height: fit-content;
+.side-menu label, .side-menu .fa-solid  {
+    font-size: .8rem;
 }
-
 .m-page {
     padding: 0;
 }
