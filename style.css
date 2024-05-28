@@ -9,10 +9,19 @@ main {
     padding-top: 70px;
 }
 
+.side-menu > div {
+    height: calc(100% / 2);
+}
+
+.icon-side i, .setting i {
+    height: fit-content;
+}
+
+
+
 /*DEBUG*/
 nav {
     min-height: 70px;
-    background-color: gray;
     color: white;
 }
 
@@ -36,18 +45,18 @@ nav .col-1 {
     align-items: center;
 }
 
-.side-menu {
-    height:auto;
+
+main .row  {
+    border: solid black 1px;
+    min-height: 700px;
 }
 
 main div  {
     border: solid black 1px;
-    min-height: 800px;
 }
+
+/*FINE DEBUG*/
 
 .banner {
     min-height: 100px;
 }
-
-
-/*FINE DEBUG*/
