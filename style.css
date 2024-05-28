@@ -17,11 +17,10 @@ main {
     height: fit-content;
 }
 
-
-
 /*DEBUG*/
 nav {
     min-height: 70px;
+    background-color: gray;
     color: white;
 }
 
@@ -37,14 +36,6 @@ main .row {
     background-color: chocolate;
     min-height: 50px;
 }
-
-nav .col-1 {
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 main .row  {
     border: solid black 1px;
