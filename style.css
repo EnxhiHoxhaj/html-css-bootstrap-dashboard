@@ -9,6 +9,7 @@
 nav {
     min-height: 70px;
     background-color: gray;
+    color: white;
 }
 
 .row {
@@ -21,12 +22,12 @@ nav {
     min-height: 50px;
 }
 
-.col-1 {
+nav .col-1 {
     background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-
-
 
 
 
