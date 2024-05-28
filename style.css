@@ -5,6 +5,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+main {
+    padding-top: 70px;
+}
+
 /*DEBUG*/
 nav {
     min-height: 70px;
@@ -15,6 +19,9 @@ nav {
 .row {
     background-color: rgb(152, 201, 184);
     min-height: 70px;
+}
+main .row {
+    background-color: darkgoldenrod;
 }
 
 [class^="col-"] {
@@ -29,6 +36,18 @@ nav .col-1 {
     align-items: center;
 }
 
+.side-menu {
+    height:auto;
+}
+
+main div  {
+    border: solid black 1px;
+    min-height: 800px;
+}
+
+.banner {
+    min-height: 100px;
+}
 
 
 /*FINE DEBUG*/
