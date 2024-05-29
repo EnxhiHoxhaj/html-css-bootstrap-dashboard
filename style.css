@@ -12,14 +12,32 @@ main {
 .side-menu > div {
     height: calc(100% / 2);   
 }
+
 .side-menu label, .side-menu .fa-solid  {
     font-size: .8rem;
 }
+
 .m-page {
     padding: 0;
 }
 
+.m-page .col {
+    height: fit-content;
+}
+
+/* HEADER MAIN PAGE*/
+
+.breadcrumb {
+    margin-bottom: 0;
+    height: fit-content;
+}
+
+.btn-secondary {
+    padding: 0.5px 1.5px;
+}
+
 /*DEBUG*/
+
 nav {
     min-height: 70px;
     background-color: gray;
@@ -36,7 +54,6 @@ main .row {
 
 [class^="col-"] {
     background-color: chocolate;
-    min-height: 50px;
 }
 
 main .row  {
@@ -48,8 +65,6 @@ main div  {
 }
 
 /*FINE DEBUG*/
-
-
 
 .faq > div, .faq button {
     width: 100%;
