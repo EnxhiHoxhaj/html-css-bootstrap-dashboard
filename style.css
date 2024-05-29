@@ -67,7 +67,7 @@ main {
 .side-menu {
     height: calc(100vh - 90px);
     background-image: url(img/sidebar-bg.png);
-    background-color: blue;
+    background-color: #142a40;
 }
 
 .side-menu > div {
