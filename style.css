@@ -4,9 +4,22 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+ /* HEADER*/
+
+header > nav {
+    min-height: 70px;
+}
+
+header img {
+    width: 100%;
+}
 
 main {
-    padding-top: 70px;
+   height: calc(100% - 70px);
+}
+
+.side-menu {
+    height: calc(100vh - 70px);
 }
 
 .side-menu > div {
@@ -71,5 +84,9 @@ main div  {
 }
 
 .right img {
+    width: 100%;
+}
+
+.img-graf, .img-graf img {
     width: 100%;
 }
