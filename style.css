@@ -10,10 +10,6 @@ img {
 } 
 
 /*DEBUG*/
-main .row {
-    background-color: darkgoldenrod;
-}
-
 main .row  {
     border: solid black 1px;
 }
@@ -59,24 +55,23 @@ input {
     height: 50px;
 }
 
+/*MANI*/
 
 main {
-   height: calc(100% - 90px);
-}
+    height: calc(100% - 90px);
+ }
 
+/*Sidebar*/
 .side-menu {
     height: calc(100vh - 90px);
     background-image: url(img/sidebar-bg.png);
     background-color: #142a40;
+    color: white;
+    font-size: .8rem;
 }
 
 .side-menu > div {
     height: calc(100% / 2);   
-}
-
-.side-menu label, .side-menu .fa-solid  {
-    font-size: .8rem;
-    color: white;
 }
 
 .m-page {
