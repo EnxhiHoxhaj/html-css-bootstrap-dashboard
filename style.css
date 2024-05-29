@@ -4,22 +4,70 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+img {
+    width: 100%;
+} 
+
+/*DEBUG*/
+main .row {
+    background-color: darkgoldenrod;
+}
+
+main .row  {
+    border: solid black 1px;
+}
+
+main div  {
+    border: solid black 1px;
+}
+
+/*FINE DEBUG*/
+
  /* HEADER*/
 
-header > nav {
-    min-height: 70px;
+header {
+    background-color: #f8f9fa;
+    height: 90px;
 }
 
-header img {
-    width: 100%;
+header .row {
+    margin-right: .4rem;
+    margin-left: -.4rem;
 }
+
+nav {
+    height: 100%;
+}
+
+#top-nav {
+    width: 100%;
+    background-color: white;
+    color: #5b5858;
+    height: auto;
+}
+
+input {
+    width: 100%;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 8px;
+}
+
+.logo-m img {
+    width: 50px;
+    height: 50px;
+}
+
 
 main {
-   height: calc(100% - 70px);
+   height: calc(100% - 90px);
 }
 
 .side-menu {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 90px);
+    background-image: url(img/sidebar-bg.png);
+    background-color: blue;
 }
 
 .side-menu > div {
@@ -28,6 +76,7 @@ main {
 
 .side-menu label, .side-menu .fa-solid  {
     font-size: .8rem;
+    color: white;
 }
 
 .m-page {
@@ -48,36 +97,6 @@ main {
 .btn-secondary {
     padding: 0.5px 1.5px;
 }
-
-/*DEBUG*/
-
-nav {
-    min-height: 70px;
-    background-color: gray;
-    color: white;
-}
-
-.row {
-    background-color: rgb(152, 201, 184);
-    min-height: 70px;
-}
-main .row {
-    background-color: darkgoldenrod;
-}
-
-[class^="col-"] {
-    background-color: chocolate;
-}
-
-main .row  {
-    border: solid black 1px;
-}
-
-main div  {
-    border: solid black 1px;
-}
-
-/*FINE DEBUG*/
 
 .faq > div, .faq button {
     width: 100%;
