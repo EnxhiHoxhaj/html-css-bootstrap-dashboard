@@ -115,7 +115,7 @@ table img {
 .fa-pencil, .fa-trash {
     font-size: 18px;
     color: #6c757d;
-    border: solid #6c757d 2px;
+    border: solid #6c757d 1px;
     border-radius: 5px;
     padding: 8px;
 }
