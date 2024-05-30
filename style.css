@@ -79,11 +79,15 @@ a {
 
 .breadcrumb {
     margin-bottom: 0;
-    height: fit-content;
+    padding: 0;
 }
 
 .btn-secondary {
-    padding: 0.5px 1.5px;
+    padding: 0.2px 5px;
+    background-color: rgb(0, 0, 0, 0.30);
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
 }
 
 .faq > div, .faq button {
