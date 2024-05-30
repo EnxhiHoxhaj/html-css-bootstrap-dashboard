@@ -21,11 +21,11 @@
         <nav class="container-fluid d-flex align-items-center px-0">
             <div class="row justify-content-center align-items-center " id="top-nav">
                 <!--logo-->
-                <div class="col-1 d-none d-lg-inline-block pe-0 flex-grow-1">
+                <div class="col-1 d-none d-lg-inline-block">
                     <img src="img/logo.svg" alt="logo">
                 </div>
                 <!--logo mobile-->
-                <div class="col-1 d-lg-none d-xl-nune d-xxl-nune py-0 logo-m">
+                <div class="col-1 d-lg-none d-xl-nune d-xxl-nune py-0 logo-m flex-shrink-0">
                     <img src="img/mobile-logo.png" alt="logo moble">
                 </div>
                 <!--Search bar-->
@@ -69,30 +69,38 @@
             <div class="col-1 side-menu">
                 <div class="icon-side pt-4">
                     <div class="mb-3 text-sm-center text-md-center text-lg-start">
-                        <i class="fa-solid fa-house me-2"></i>
-                        <label class="d-none d-lg-inline-block">Home</label>
+                        <a href="#">
+                            <i class="fa-solid fa-house me-2"></i>
+                        </a>
+                        <a href="#" class="d-none d-lg-inline-block">Home</a>
                     </div>
                     <div class="mb-3 text-sm-center text-md-center text-lg-start">
-                        <i class="fa-solid fa-chart-simple me-2"></i>
-                        <label class="d-none d-lg-inline-block">Stats</label>
+                        <a href="#">
+                            <i class="fa-solid fa-chart-simple me-2"></i>
+                        </a>
+                        <a href="#" class="d-none d-lg-inline-block">Stats</a>
                     </div>
                     <div class="text-sm-center text-md-center text-lg-start">
-                        <i class="fa-solid fa-signal me-2"></i>
-                        <label class="d-none d-lg-inline-block">Signal</label>
+                        <a href="#">
+                            <i class="fa-solid fa-signal me-2"></i>
+                        </a>
+                        <a href="#" class="d-none d-lg-inline-block">Signal</a>
                     </div>
                 </div>
                 <div class="setting d-flex align-items-end justify-content-center justify-content-lg-start">
                     <div class="mb-4">
-                        <i class="fa-solid fa-gear me-2"></i>
-                        <label class="d-none d-lg-inline-block">Admin</label>
+                        <a href="#">
+                            <i class="fa-solid fa-gear me-2"></i>
+                        </a>
+                        <a href="#" class="d-none d-lg-inline-block">Admin</a>
                     </div>
                 </div>
             </div>
             <!--main page-->       
             <div class="col-11 m-page">
                 <!--Banner main page-->
-                <div class="col-12 banner d-flex flex-wrap py-2 gx-5">
-                    <div class="col-12 col-md-4 text-start">
+                <div class="col-12 banner d-flex flex-wrap py-md-2 px-md-2 gx-md-5">
+                    <div class="col-12 mb-4 col-md-4 text-start">
                         <div class="d-flex align-items-center">
                             <h2>Boolean</h2>
                             <div class="ms-2">
@@ -116,15 +124,23 @@
                             </ol>
                         </div>            
                     </div>
-                    <div class="col-12 col-md-3 offset-md-1 text-center">
-                        <h5>Lorem ipsum, dolor sit amet</h5>
-                        <h2>125</h2>
+                    <div class="col-12 col-md-3 offset-md-1 mt-md-2">
+                        <h6>Studenti Onilne negli ultimi 30 minuti</h6>
+                        <h4>125</h4>
                     </div>
-                    <div class="col-12 col-md-2 offset-md-1 text-center">
-                        <h5>Nuovo studente</h5>
-                        <i>0</i>
+                    <div class="col-12 col-md-2 offset-md-1 d-flex align-items-center">
+                        <h6 class="flex-shrink-0">Nuovo studente</h6>                                        
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-regular fa-square-plus fs-2"></i></button>   
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            ...
+                        </div>
+                        </div>
                     </div>
-
                 </div>
                 <!--interactiv page-->
                 <div class="col-12 d-lg-flex">

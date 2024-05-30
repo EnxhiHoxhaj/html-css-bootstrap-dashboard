@@ -9,31 +9,16 @@ img {
     width: 100%;
 } 
 
-/*DEBUG*/
-main .row  {
-    border: solid black 1px;
-}
-
-main div  {
-    border: solid black 1px;
-}
-
-/*FINE DEBUG*/
-
  /* HEADER*/
 
 header {
     background-color: #f8f9fa;
-    height: 90px;
+    height: 70px;
 }
 
 header .row {
     margin-right: .4rem;
     margin-left: -.4rem;
-}
-
-nav {
-    height: 100%;
 }
 
 #top-nav {
@@ -74,15 +59,23 @@ main {
     height: calc(100% / 2);   
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*MAIN PAGE*/
+
 .m-page {
     padding: 0;
+    background-color: #f7f7f7;
 }
-
-.m-page .col {
-    height: fit-content;
-}
-
 /* HEADER MAIN PAGE*/
+
+.banner {
+    background-color: #1b72e8;
+    color: white;
+}
 
 .breadcrumb {
     margin-bottom: 0;
