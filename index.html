@@ -150,85 +150,195 @@
                 <!--interactiv page-->
                 <div class="col-12 d-lg-flex">
                     <!--left-->
-                    <div class="col-12 col-lg-7 mt-4 px-2">
+                    <div class="col-12 col-lg-8 mt-4">
                         <!--Prossime classi -->
-                        <div class="col-12 mb-4">
-                            <div>Prossime classi</div>
-                            <table class="table">
+                        <div class="col-12 mb-4 px-3">
+                            <div class="title d-flex align-items-center px-3">
+                                <h4>Prossime classi</h4>
+                            </div>
+                            <table class="table px-3 text-center" id="next-cl">
                                 <thead>
-                                  <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
+                                  <tr class="tab-col">
+                                    <th scope="col" class="nome text-start" class="w-45">Nome</th>
+                                    <th scope="col" class="w-10 d-none d-md-block">Data inizio</th>
+                                    <th scope="col" class="w-10">ROI</th>
+                                    <th scope="col" class="w-10">Stato</th>
+                                    <th scope="col" class="w-10">Azioni</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
+                                    <th scope="row" class="text-start">
+                                        <img src="img/class-avatar.jpg" alt="class avatar">
+                                        <label for="#">Classe 75</label>
+                                    </th>
+                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success py-0 px-2">Done</button>
+                                    </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
+                                    <th scope="row" class="text-start">
+                                        <img src="img/class-avatar.jpg" alt="class avatar">
+                                        <label for="#">Classe 76</label>
+                                    </th>
+                                    <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success py-0 px-2">Done</button>
+                                    </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <th scope="row" class="text-start">
+                                        <img src="img/class-avatar.jpg" alt="class avatar">
+                                        <label for="#">Classe 77</label>
+                                    </th>
+                                    <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning py-0 px-2">process</button>
+                                    </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <th scope="row" class="text-start">
+                                        <img src="img/class-avatar.jpg" alt="class avatar">
+                                        <label for="#">Classe 78</label>
+                                    </th>
+                                    <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success py-0 px-2">Done</button>
+                                    </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <th scope="row" class="text-start">
+                                        <img src="img/class-avatar.jpg" alt="class avatar">
+                                        <label for="#">Classe 79</label>
+                                    </th>
+                                    <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger py-0 px-2">failed</button>
+                                    </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <th scope="row" class="text-start">
+                                        <img src="img/class-avatar.jpg" alt="class avatar">
+                                        <label for="#">Classe 80</label>
+                                    </th>
+                                    <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success py-0 px-2">Done</button>
+                                    </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <th scope="row" class="text-start">
+                                        <img src="img/class-avatar.jpg" alt="class avatar">
+                                        <label for="#">Classe 81</label>
+                                    </th>
+                                    <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger py-0 px-2">failed</button>
+                                    </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
                                   </tr>
-                                </tbody>
-                              </table>
+                                  <tr>
+                                    <th scope="row" class="text-start">
+                                        <img src="img/class-avatar.jpg" alt="class avatar">
+                                        <label for="#">Classe 82</label>
+                                    </th>
+                                    <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                                    <td>20%</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success py-0 px-2">Done</button>
+                                    </td>
+                                    <td>
+                                        <i class="fa-solid fa-pencil"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                  </tr>
+                                </tbody>  
+                            </table>
                         </div>
                         <!--F.A.Q.-->
-                        <div class="col-12 faq">
-                            <div>F.A.Q.</div>
-                            <div class="d-inline-flex gap-1">
-                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Button with data-bs-target
-                                </button>
+                        <div class="col-12 faq px-3">
+                            <div class="title d-flex align-items-center px-3">
+                                <h4>F.A.Q.</h4>
+                                <div class="">
+                                    <p class="d-inline-flex gap-1">
+                                        <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        Button with data-bs-target
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample" style="">
+                                        <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="d-inline-flex gap-1">
+                                        <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        Button with data-bs-target
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample" style="">
+                                        <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="d-inline-flex gap-1">
+                                        <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        Button with data-bs-target
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="collapseExample" style="">
+                                        <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                        </div>
+                                    </div>
+                                </div> 
                             </div>
-                            <div class="d-inline-flex gap-1">
-                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Button with data-bs-target
-                                </button>
-                            </div>
-                            <div class="d-inline-flex gap-1">
-                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Button with data-bs-target
-                                </button>
-                            </div>
-                        </div>
-
+                        </div>   
                     </div>
                     <!--right-->
-                    <div class="col-12 col-lg-5 mt-4 px-2">
+                    <div class="col-12 col-lg-4 mt-4 px-2">
                         <div class="mb-4">
-                            <div>todo</div>
+                            <div class="title d-flex align-items-center px-3">
+                                <h4>Todo</h4>
+                            </div>
                             <table class="table">
                                 <tbody>
                                 <tr>
@@ -253,11 +363,14 @@
                             </table>
                         </div>
                         <div>
-                            <div class="img-graf">
-                                <img src="img/stats.jpeg" alt="grafico">
+                            <div>
+                                <div class="img-graf">
+                                    <img src="img/stats.jpeg" alt="grafico">
+                                </div>
+                                <h6>Utenti attivi</h6>
                             </div>
                         </div>
-                    </div>
+                    </div>                           
                 </div>
             </div>
         </section>

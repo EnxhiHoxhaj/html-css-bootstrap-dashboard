@@ -90,14 +90,34 @@ a {
     font-size: 12px;
 }
 
-.faq > div, .faq button {
-    width: 100%;
+/*Interactiv pagre*/
+
+/*Left Prossime classi*/
+
+.title, #next-cl {
+    height: 50px;
+    border: solid lightgray 0.1px;
+    border-radius: 10px 10px 0 0;
 }
 
-.right img {
-    width: 100%;
+table #next-cl {
+    border-radius: 0 0 10px;
 }
 
-.img-graf, .img-graf img {
-    width: 100%;
+table img {
+    width: 25px;
 }
+
+.tab-col > .nome {
+    width: 40%;
+}
+
+.fa-pencil, .fa-trash {
+    font-size: 18px;
+    color: #6c757d;
+    border: solid #6c757d 2px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+
